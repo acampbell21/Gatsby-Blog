@@ -7,8 +7,8 @@ const Layout =  ({data}) => {
   const { edges } = data.allMarkdownRemark
 
   const opts = {
-    height: '390',
-    width: '640',
+    height: '50',
+    width: '50',
     playerVars: { // https://developers.google.com/youtube/player_parameters
       autoplay: 1
     }
@@ -43,7 +43,7 @@ const Layout =  ({data}) => {
           <Link to='/tags'>Browse by Tags</Link>
         </div>
         <YouTube
-          videoId="7fVK7atPvLQ"
+          videoId="L2J2t-6ek0Y"
           opts={opts}
           onReady={_onReady}
         />
