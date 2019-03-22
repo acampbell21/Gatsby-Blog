@@ -14,8 +14,11 @@
   },
   "dependencies": {
     "gatsby": "^2.2.3",
+    "gatsby-source-filesystem": "^2.0.27",
+    "gatsby-transformer-remark": "^2.3.7",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-youtube": "^7.9.0"
   },
   "devDependencies": {
     "prettier": "^1.16.4"
