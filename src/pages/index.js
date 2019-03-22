@@ -7,17 +7,12 @@ const Layout =  ({data}) => {
   const { edges } = data.allMarkdownRemark
 
   const opts = {
-    height: '50',
-    width: '50',
+    height: '100',
+    width: '100',
     playerVars: { // https://developers.google.com/youtube/player_parameters
       autoplay: 1
     }
   };
-
-  const _onReady = (event) => {
-    // access to player in all event handlers via event.target
-    event.target.pauseVideo();
-  }
 
 
   return (
@@ -45,7 +40,6 @@ const Layout =  ({data}) => {
         <YouTube
           videoId="L2J2t-6ek0Y"
           opts={opts}
-          onReady={_onReady}
         />
       </div>
     </div>
